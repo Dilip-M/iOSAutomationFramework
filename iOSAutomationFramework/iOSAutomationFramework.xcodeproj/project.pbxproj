@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8454B9B2244B67A000705107 /* TwitterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454B9B1244B67A000705107 /* TwitterTests.swift */; };
+		8454B9B5244B6A4500705107 /* AppStoreLaunchScreenWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454B9B4244B6A4500705107 /* AppStoreLaunchScreenWrapper.swift */; };
+		8454B9BC244BF9D600705107 /* AppStoreLaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454B9BB244BF9D600705107 /* AppStoreLaunchScreen.swift */; };
+		8454B9BF244C01A300705107 /* XCUIElement+ClearAndEnterText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454B9BE244C01A300705107 /* XCUIElement+ClearAndEnterText.swift */; };
+		8454B9C1244C045F00705107 /* XCTestCase+WaitForElementToExist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454B9C0244C045F00705107 /* XCTestCase+WaitForElementToExist.swift */; };
+		8454B9C3244C04DD00705107 /* XCTestCase+WaitForElementToNotExist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454B9C2244C04DD00705107 /* XCTestCase+WaitForElementToNotExist.swift */; };
+		8454B9C7244C169E00705107 /* InfoPlistParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454B9C6244C169E00705107 /* InfoPlistParser.swift */; };
+		8454B9C9244C1A6400705107 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454B9C8244C1A6400705107 /* AppStore.swift */; };
+		8454B9CB244C1CEE00705107 /* AppStoreSearchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454B9CA244C1CEE00705107 /* AppStoreSearchScreen.swift */; };
+		8454B9CD244C22F600705107 /* AppStoreSearchScreenWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454B9CC244C22F600705107 /* AppStoreSearchScreenWrapper.swift */; };
+		8454B9D1244C3AE700705107 /* AppStoreInstallScreenWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454B9D0244C3AE700705107 /* AppStoreInstallScreenWrapper.swift */; };
+		8454B9D3244C56F300705107 /* TwitterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454B9D2244C56F300705107 /* TwitterData.swift */; };
+		8454B9D5244C577600705107 /* TwitterLaunchScreenWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454B9D4244C577600705107 /* TwitterLaunchScreenWrapper.swift */; };
+		8454B9D7244C5EF400705107 /* TwitterLaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454B9D6244C5EF400705107 /* TwitterLaunchScreen.swift */; };
+		8454B9D9244C602000705107 /* TwitterCreateAccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454B9D8244C602000705107 /* TwitterCreateAccountScreen.swift */; };
+		8454B9DB244C607A00705107 /* TwitterLogInScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454B9DA244C607A00705107 /* TwitterLogInScreen.swift */; };
+		8454B9DD244C60E200705107 /* TwitterCreateAccountScreenWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454B9DC244C60E200705107 /* TwitterCreateAccountScreenWrapper.swift */; };
+		8454B9DF244C617F00705107 /* TwitterLogInScreenWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454B9DE244C617F00705107 /* TwitterLogInScreenWrapper.swift */; };
+		8454B9E1244C6DC500705107 /* TwitterHomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454B9E0244C6DC500705107 /* TwitterHomeScreen.swift */; };
+		8454B9E3244C70A600705107 /* TwitterHomeScreenWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454B9E2244C70A600705107 /* TwitterHomeScreenWrapper.swift */; };
+		8454B9E5244C72DE00705107 /* TwitterUserSettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454B9E4244C72DE00705107 /* TwitterUserSettingsScreen.swift */; };
+		8454B9E7244C798700705107 /* TwitterUserSettingsScreenWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454B9E6244C798700705107 /* TwitterUserSettingsScreenWrapper.swift */; };
+		8454B9E9244C831F00705107 /* TwitterSearchScreenWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454B9E8244C831F00705107 /* TwitterSearchScreenWrapper.swift */; };
+		8454B9EB244C83BC00705107 /* TwitterSearchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454B9EA244C83BC00705107 /* TwitterSearchScreen.swift */; };
+		8454B9ED244C8D7300705107 /* XCUIElement+SwipeUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454B9EC244C8D7300705107 /* XCUIElement+SwipeUp.swift */; };
+		8454B9F2244CA80F00705107 /* TwitterTweetScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454B9F1244CA80F00705107 /* TwitterTweetScreen.swift */; };
+		8454B9F4244CA83C00705107 /* TwitterTweetScreenWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454B9F3244CA83C00705107 /* TwitterTweetScreenWrapper.swift */; };
+		84BEB6D4244B2036003CB0A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BEB6D3244B2036003CB0A3 /* AppDelegate.swift */; };
+		84BEB6D6244B2036003CB0A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BEB6D5244B2036003CB0A3 /* SceneDelegate.swift */; };
+		84BEB6D8244B2036003CB0A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BEB6D7244B2036003CB0A3 /* ViewController.swift */; };
+		84BEB6DB244B2037003CB0A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BEB6D9244B2037003CB0A3 /* Main.storyboard */; };
+		84BEB6DD244B2038003CB0A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BEB6DC244B2038003CB0A3 /* Assets.xcassets */; };
+		84BEB6E0244B2038003CB0A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BEB6DE244B2038003CB0A3 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84FDD59C244B357B0001F7E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84BEB6C8244B2036003CB0A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84BEB6CF244B2036003CB0A3;
+			remoteInfo = iOSAutomationFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8454B9B1244B67A000705107 /* TwitterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterTests.swift; sourceTree = "<group>"; };
+		8454B9B4244B6A4500705107 /* AppStoreLaunchScreenWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreLaunchScreenWrapper.swift; sourceTree = "<group>"; };
+		8454B9BB244BF9D600705107 /* AppStoreLaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreLaunchScreen.swift; sourceTree = "<group>"; };
+		8454B9BE244C01A300705107 /* XCUIElement+ClearAndEnterText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCUIElement+ClearAndEnterText.swift"; sourceTree = "<group>"; };
+		8454B9C0244C045F00705107 /* XCTestCase+WaitForElementToExist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+WaitForElementToExist.swift"; sourceTree = "<group>"; };
+		8454B9C2244C04DD00705107 /* XCTestCase+WaitForElementToNotExist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+WaitForElementToNotExist.swift"; sourceTree = "<group>"; };
+		8454B9C6244C169E00705107 /* InfoPlistParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPlistParser.swift; sourceTree = "<group>"; };
+		8454B9C8244C1A6400705107 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		8454B9CA244C1CEE00705107 /* AppStoreSearchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreSearchScreen.swift; sourceTree = "<group>"; };
+		8454B9CC244C22F600705107 /* AppStoreSearchScreenWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreSearchScreenWrapper.swift; sourceTree = "<group>"; };
+		8454B9D0244C3AE700705107 /* AppStoreInstallScreenWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreInstallScreenWrapper.swift; sourceTree = "<group>"; };
+		8454B9D2244C56F300705107 /* TwitterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterData.swift; sourceTree = "<group>"; };
+		8454B9D4244C577600705107 /* TwitterLaunchScreenWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterLaunchScreenWrapper.swift; sourceTree = "<group>"; };
+		8454B9D6244C5EF400705107 /* TwitterLaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterLaunchScreen.swift; sourceTree = "<group>"; };
+		8454B9D8244C602000705107 /* TwitterCreateAccountScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterCreateAccountScreen.swift; sourceTree = "<group>"; };
+		8454B9DA244C607A00705107 /* TwitterLogInScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterLogInScreen.swift; sourceTree = "<group>"; };
+		8454B9DC244C60E200705107 /* TwitterCreateAccountScreenWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterCreateAccountScreenWrapper.swift; sourceTree = "<group>"; };
+		8454B9DE244C617F00705107 /* TwitterLogInScreenWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterLogInScreenWrapper.swift; sourceTree = "<group>"; };
+		8454B9E0244C6DC500705107 /* TwitterHomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterHomeScreen.swift; sourceTree = "<group>"; };
+		8454B9E2244C70A600705107 /* TwitterHomeScreenWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterHomeScreenWrapper.swift; sourceTree = "<group>"; };
+		8454B9E4244C72DE00705107 /* TwitterUserSettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterUserSettingsScreen.swift; sourceTree = "<group>"; };
+		8454B9E6244C798700705107 /* TwitterUserSettingsScreenWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterUserSettingsScreenWrapper.swift; sourceTree = "<group>"; };
+		8454B9E8244C831F00705107 /* TwitterSearchScreenWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterSearchScreenWrapper.swift; sourceTree = "<group>"; };
+		8454B9EA244C83BC00705107 /* TwitterSearchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterSearchScreen.swift; sourceTree = "<group>"; };
+		8454B9EC244C8D7300705107 /* XCUIElement+SwipeUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCUIElement+SwipeUp.swift"; sourceTree = "<group>"; };
+		8454B9F1244CA80F00705107 /* TwitterTweetScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterTweetScreen.swift; sourceTree = "<group>"; };
+		8454B9F3244CA83C00705107 /* TwitterTweetScreenWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterTweetScreenWrapper.swift; sourceTree = "<group>"; };
+		84BEB6D0244B2036003CB0A3 /* iOSAutomationFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSAutomationFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BEB6D3244B2036003CB0A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84BEB6D5244B2036003CB0A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84BEB6D7244B2036003CB0A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84BEB6DA244B2037003CB0A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84BEB6DC244B2038003CB0A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84BEB6DF244B2038003CB0A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84BEB6E1244B2038003CB0A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FDD597244B357B0001F7E0 /* iOSAutomationFrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSAutomationFrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FDD59B244B357B0001F7E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84BEB6CD244B2036003CB0A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FDD594244B357B0001F7E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8454B9B3244B696E00705107 /* ScreenWrappers */ = {
+			isa = PBXGroup;
+			children = (
+				8454B9B4244B6A4500705107 /* AppStoreLaunchScreenWrapper.swift */,
+				8454B9CC244C22F600705107 /* AppStoreSearchScreenWrapper.swift */,
+				8454B9D0244C3AE700705107 /* AppStoreInstallScreenWrapper.swift */,
+				8454B9D4244C577600705107 /* TwitterLaunchScreenWrapper.swift */,
+				8454B9DC244C60E200705107 /* TwitterCreateAccountScreenWrapper.swift */,
+				8454B9DE244C617F00705107 /* TwitterLogInScreenWrapper.swift */,
+				8454B9E2244C70A600705107 /* TwitterHomeScreenWrapper.swift */,
+				8454B9E6244C798700705107 /* TwitterUserSettingsScreenWrapper.swift */,
+				8454B9E8244C831F00705107 /* TwitterSearchScreenWrapper.swift */,
+				8454B9F3244CA83C00705107 /* TwitterTweetScreenWrapper.swift */,
+			);
+			path = ScreenWrappers;
+			sourceTree = "<group>";
+		};
+		8454B9B6244B6B6300705107 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8454B9BB244BF9D600705107 /* AppStoreLaunchScreen.swift */,
+				8454B9CA244C1CEE00705107 /* AppStoreSearchScreen.swift */,
+				8454B9D6244C5EF400705107 /* TwitterLaunchScreen.swift */,
+				8454B9D8244C602000705107 /* TwitterCreateAccountScreen.swift */,
+				8454B9DA244C607A00705107 /* TwitterLogInScreen.swift */,
+				8454B9E0244C6DC500705107 /* TwitterHomeScreen.swift */,
+				8454B9E4244C72DE00705107 /* TwitterUserSettingsScreen.swift */,
+				8454B9EA244C83BC00705107 /* TwitterSearchScreen.swift */,
+				8454B9F1244CA80F00705107 /* TwitterTweetScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8454B9BD244C013800705107 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8454B9BE244C01A300705107 /* XCUIElement+ClearAndEnterText.swift */,
+				8454B9C0244C045F00705107 /* XCTestCase+WaitForElementToExist.swift */,
+				8454B9C2244C04DD00705107 /* XCTestCase+WaitForElementToNotExist.swift */,
+				8454B9EC244C8D7300705107 /* XCUIElement+SwipeUp.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8454B9C4244C13B300705107 /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+				8454B9C8244C1A6400705107 /* AppStore.swift */,
+				8454B9D2244C56F300705107 /* TwitterData.swift */,
+			);
+			path = TestData;
+			sourceTree = "<group>";
+		};
+		8454B9C5244C166E00705107 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				8454B9C6244C169E00705107 /* InfoPlistParser.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		84BEB6C7244B2036003CB0A3 = {
+			isa = PBXGroup;
+			children = (
+				84BEB6D2244B2036003CB0A3 /* iOSAutomationFramework */,
+				84FDD598244B357B0001F7E0 /* iOSAutomationFrameworkUITests */,
+				84BEB6D1244B2036003CB0A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84BEB6D1244B2036003CB0A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84BEB6D0244B2036003CB0A3 /* iOSAutomationFramework.app */,
+				84FDD597244B357B0001F7E0 /* iOSAutomationFrameworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84BEB6D2244B2036003CB0A3 /* iOSAutomationFramework */ = {
+			isa = PBXGroup;
+			children = (
+				84BEB6D3244B2036003CB0A3 /* AppDelegate.swift */,
+				84BEB6D5244B2036003CB0A3 /* SceneDelegate.swift */,
+				84BEB6D7244B2036003CB0A3 /* ViewController.swift */,
+				84BEB6D9244B2037003CB0A3 /* Main.storyboard */,
+				84BEB6DC244B2038003CB0A3 /* Assets.xcassets */,
+				84BEB6DE244B2038003CB0A3 /* LaunchScreen.storyboard */,
+				84BEB6E1244B2038003CB0A3 /* Info.plist */,
+			);
+			path = iOSAutomationFramework;
+			sourceTree = "<group>";
+		};
+		84FDD598244B357B0001F7E0 /* iOSAutomationFrameworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8454B9C5244C166E00705107 /* Helper */,
+				8454B9C4244C13B300705107 /* TestData */,
+				8454B9BD244C013800705107 /* Extensions */,
+				8454B9B6244B6B6300705107 /* Screens */,
+				8454B9B3244B696E00705107 /* ScreenWrappers */,
+				84FDD5A1244B35EF0001F7E0 /* Tests */,
+				84FDD59B244B357B0001F7E0 /* Info.plist */,
+			);
+			path = iOSAutomationFrameworkUITests;
+			sourceTree = "<group>";
+		};
+		84FDD5A1244B35EF0001F7E0 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8454B9B1244B67A000705107 /* TwitterTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84BEB6CF244B2036003CB0A3 /* iOSAutomationFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84BEB6E4244B2038003CB0A3 /* Build configuration list for PBXNativeTarget "iOSAutomationFramework" */;
+			buildPhases = (
+				84BEB6CC244B2036003CB0A3 /* Sources */,
+				84BEB6CD244B2036003CB0A3 /* Frameworks */,
+				84BEB6CE244B2036003CB0A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSAutomationFramework;
+			productName = iOSAutomationFramework;
+			productReference = 84BEB6D0244B2036003CB0A3 /* iOSAutomationFramework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84FDD596244B357B0001F7E0 /* iOSAutomationFrameworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FDD59E244B357B0001F7E0 /* Build configuration list for PBXNativeTarget "iOSAutomationFrameworkUITests" */;
+			buildPhases = (
+				84FDD593244B357B0001F7E0 /* Sources */,
+				84FDD594244B357B0001F7E0 /* Frameworks */,
+				84FDD595244B357B0001F7E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84FDD59D244B357B0001F7E0 /* PBXTargetDependency */,
+			);
+			name = iOSAutomationFrameworkUITests;
+			productName = iOSAutomationFrameworkUITests;
+			productReference = 84FDD597244B357B0001F7E0 /* iOSAutomationFrameworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84BEB6C8244B2036003CB0A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Mani, Dilip";
+				TargetAttributes = {
+					84BEB6CF244B2036003CB0A3 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					84FDD596244B357B0001F7E0 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 84BEB6CF244B2036003CB0A3;
+					};
+				};
+			};
+			buildConfigurationList = 84BEB6CB244B2036003CB0A3 /* Build configuration list for PBXProject "iOSAutomationFramework" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84BEB6C7244B2036003CB0A3;
+			productRefGroup = 84BEB6D1244B2036003CB0A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84BEB6CF244B2036003CB0A3 /* iOSAutomationFramework */,
+				84FDD596244B357B0001F7E0 /* iOSAutomationFrameworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84BEB6CE244B2036003CB0A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BEB6E0244B2038003CB0A3 /* LaunchScreen.storyboard in Resources */,
+				84BEB6DD244B2038003CB0A3 /* Assets.xcassets in Resources */,
+				84BEB6DB244B2037003CB0A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FDD595244B357B0001F7E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84BEB6CC244B2036003CB0A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BEB6D8244B2036003CB0A3 /* ViewController.swift in Sources */,
+				84BEB6D4244B2036003CB0A3 /* AppDelegate.swift in Sources */,
+				84BEB6D6244B2036003CB0A3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FDD593244B357B0001F7E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8454B9B5244B6A4500705107 /* AppStoreLaunchScreenWrapper.swift in Sources */,
+				8454B9C9244C1A6400705107 /* AppStore.swift in Sources */,
+				8454B9BF244C01A300705107 /* XCUIElement+ClearAndEnterText.swift in Sources */,
+				8454B9F4244CA83C00705107 /* TwitterTweetScreenWrapper.swift in Sources */,
+				8454B9BC244BF9D600705107 /* AppStoreLaunchScreen.swift in Sources */,
+				8454B9D5244C577600705107 /* TwitterLaunchScreenWrapper.swift in Sources */,
+				8454B9CB244C1CEE00705107 /* AppStoreSearchScreen.swift in Sources */,
+				8454B9D1244C3AE700705107 /* AppStoreInstallScreenWrapper.swift in Sources */,
+				8454B9E3244C70A600705107 /* TwitterHomeScreenWrapper.swift in Sources */,
+				8454B9C3244C04DD00705107 /* XCTestCase+WaitForElementToNotExist.swift in Sources */,
+				8454B9C7244C169E00705107 /* InfoPlistParser.swift in Sources */,
+				8454B9D7244C5EF400705107 /* TwitterLaunchScreen.swift in Sources */,
+				8454B9E7244C798700705107 /* TwitterUserSettingsScreenWrapper.swift in Sources */,
+				8454B9B2244B67A000705107 /* TwitterTests.swift in Sources */,
+				8454B9D3244C56F300705107 /* TwitterData.swift in Sources */,
+				8454B9DD244C60E200705107 /* TwitterCreateAccountScreenWrapper.swift in Sources */,
+				8454B9E1244C6DC500705107 /* TwitterHomeScreen.swift in Sources */,
+				8454B9ED244C8D7300705107 /* XCUIElement+SwipeUp.swift in Sources */,
+				8454B9DF244C617F00705107 /* TwitterLogInScreenWrapper.swift in Sources */,
+				8454B9E9244C831F00705107 /* TwitterSearchScreenWrapper.swift in Sources */,
+				8454B9C1244C045F00705107 /* XCTestCase+WaitForElementToExist.swift in Sources */,
+				8454B9DB244C607A00705107 /* TwitterLogInScreen.swift in Sources */,
+				8454B9E5244C72DE00705107 /* TwitterUserSettingsScreen.swift in Sources */,
+				8454B9D9244C602000705107 /* TwitterCreateAccountScreen.swift in Sources */,
+				8454B9CD244C22F600705107 /* AppStoreSearchScreenWrapper.swift in Sources */,
+				8454B9F2244CA80F00705107 /* TwitterTweetScreen.swift in Sources */,
+				8454B9EB244C83BC00705107 /* TwitterSearchScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84FDD59D244B357B0001F7E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84BEB6CF244B2036003CB0A3 /* iOSAutomationFramework */;
+			targetProxy = 84FDD59C244B357B0001F7E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84BEB6D9244B2037003CB0A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84BEB6DA244B2037003CB0A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84BEB6DE244B2038003CB0A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84BEB6DF244B2038003CB0A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84BEB6E2244B2038003CB0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84BEB6E3244B2038003CB0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84BEB6E5244B2038003CB0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3BBV7D6M4B;
+				INFOPLIST_FILE = iOSAutomationFramework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.testautomation.twitterapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84BEB6E6244B2038003CB0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3BBV7D6M4B;
+				INFOPLIST_FILE = iOSAutomationFramework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.testautomation.twitterapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84FDD59F244B357B0001F7E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3BBV7D6M4B;
+				INFOPLIST_FILE = iOSAutomationFrameworkUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.testautomation.twitterapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSAutomationFramework;
+			};
+			name = Debug;
+		};
+		84FDD5A0244B357B0001F7E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5C8JYUK2G;
+				INFOPLIST_FILE = iOSAutomationFrameworkUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.testautomation.twitterapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSAutomationFramework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84BEB6CB244B2036003CB0A3 /* Build configuration list for PBXProject "iOSAutomationFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BEB6E2244B2038003CB0A3 /* Debug */,
+				84BEB6E3244B2038003CB0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84BEB6E4244B2038003CB0A3 /* Build configuration list for PBXNativeTarget "iOSAutomationFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BEB6E5244B2038003CB0A3 /* Debug */,
+				84BEB6E6244B2038003CB0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FDD59E244B357B0001F7E0 /* Build configuration list for PBXNativeTarget "iOSAutomationFrameworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FDD59F244B357B0001F7E0 /* Debug */,
+				84FDD5A0244B357B0001F7E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84BEB6C8244B2036003CB0A3 /* Project object */;
+}

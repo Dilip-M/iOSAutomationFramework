@@ -1,0 +1,632 @@
+2020-04-20 08:58:48.094389+0530 iOSAutomationFrameworkUITests-Runner[2200:452007] Running tests...
+Test Suite 'Selected tests' started at 2020-04-20 08:58:48.742
+Test Suite 'iOSAutomationFrameworkUITests.xctest' started at 2020-04-20 08:58:48.742
+Test Suite 'AppInstallationTests' started at 2020-04-20 08:58:48.742
+Test Case '-[iOSAutomationFrameworkUITests.AppInstallationTests test01_TnstallOrOpenTwitterFromAppStore]' started.
+    t =     0.00s Start Test at 2020-04-20 08:58:48.743
+    t =     0.03s Set Up
+    t =     0.05s Open com.apple.AppStore
+    t =     0.08s     Launch com.apple.AppStore
+    t =     0.11s         Wait for accessibility to load
+    t =     0.12s         Setting up automation session
+    t =     0.27s         Wait for com.apple.AppStore to idle
+    t =     2.46s Checking `Expect predicate `exists == 1` for object "Search" Button`
+    t =     2.47s     Checking existence of `"Search" Button`
+    t =     2.56s Tap "Search" Button
+    t =     2.56s     Wait for com.apple.AppStore to idle
+    t =     2.89s     Find the "Search" Button
+    t =     2.98s     Check for interrupting elements affecting "Search" Button
+    t =     3.03s     Synthesize event
+    t =     3.15s     Wait for com.apple.AppStore to idle
+    t =     4.21s Checking `Expect predicate `exists == 1` for object "Games, Apps, Stories and More" SearchField`
+    t =     4.21s     Checking existence of `"Games, Apps, Stories and More" SearchField`
+    t =     4.26s Find the "Games, Apps, Stories and More" SearchField
+    t =     4.29s Tap "Games, Apps, Stories and More" SearchField[0.50, 0.50]
+    t =     4.29s     Wait for com.apple.AppStore to idle
+    t =     4.34s     Find the "Games, Apps, Stories and More" SearchField
+    t =     4.37s     Check for interrupting elements affecting "Games, Apps, Stories and More" SearchField
+    t =     4.41s     Synthesize event
+    t =     4.46s         Find the "Games, Apps, Stories and More" SearchField
+    t =     4.53s     Wait for com.apple.AppStore to idle
+    t =     5.20s Type '' into "Games, Apps, Stories and More" SearchField
+    t =     5.20s     Wait for com.apple.AppStore to idle
+    t =     5.47s     Find the "Games, Apps, Stories and More" SearchField
+    t =     5.54s     Check for interrupting elements affecting "Games, Apps, Stories and More" SearchField
+    t =     5.61s     Synthesize event
+    t =     5.68s     Wait for com.apple.AppStore to idle
+    t =     5.87s Type 'Twitter' into "Games, Apps, Stories and More" SearchField
+    t =     5.87s     Wait for com.apple.AppStore to idle
+    t =     5.92s     Find the "Games, Apps, Stories and More" SearchField
+    t =     5.98s     Check for interrupting elements affecting "Games, Apps, Stories and More" SearchField
+    t =     6.04s     Synthesize event
+    t =     6.22s     Wait for com.apple.AppStore to idle
+    t =     7.31s Checking `Expect predicate `exists == 1` for object "search" Button`
+    t =     7.31s     Checking existence of `"search" Button`
+    t =     7.39s Tap "search" Button
+    t =     7.39s     Wait for com.apple.AppStore to idle
+    t =     7.45s     Find the "search" Button
+    t =     7.49s     Check for interrupting elements affecting "Search" Button
+    t =     7.55s     Synthesize event
+    t =     7.66s     Wait for com.apple.AppStore to idle
+    t =     9.24s Checking `Expect predicate `exists == 1` for object Cell`
+    t =     9.24s     Checking existence of `Cell`
+    t =     9.29s Get number of matches for: Descendants matching type Cell
+    t =     9.43s Find the Cell
+    t =     9.47s Find the Cell
+    t =     9.50s Find the Button
+    t =     9.54s Tap "re-download" Button
+    t =     9.54s     Wait for com.apple.AppStore to idle
+    t =     9.59s     Find the "re-download" Button
+    t =     9.62s     Check for interrupting elements affecting "re-download" Button
+    t =     9.65s     Synthesize event
+    t =     9.74s     Wait for com.apple.AppStore to idle
+    t =    10.83s Checking `Expect predicate `exists == 1` for object "open" Button`
+    t =    10.83s     Checking existence of `"open" Button`
+    t =    10.86s     Capturing element debug description
+    t =    11.89s Checking `Expect predicate `exists == 1` for object "open" Button`
+    t =    11.89s     Checking existence of `"open" Button`
+    t =    11.96s     Capturing element debug description
+    t =    12.99s Checking `Expect predicate `exists == 1` for object "open" Button`
+    t =    12.99s     Checking existence of `"open" Button`
+    t =    13.06s     Capturing element debug description
+    t =    14.09s Checking `Expect predicate `exists == 1` for object "open" Button`
+    t =    14.09s     Checking existence of `"open" Button`
+    t =    14.16s     Capturing element debug description
+    t =    15.19s Checking `Expect predicate `exists == 1` for object "open" Button`
+    t =    15.19s     Checking existence of `"open" Button`
+    t =    15.27s     Capturing element debug description
+    t =    16.29s Checking `Expect predicate `exists == 1` for object "open" Button`
+    t =    16.29s     Checking existence of `"open" Button`
+    t =    16.36s     Capturing element debug description
+    t =    17.40s Checking `Expect predicate `exists == 1` for object "open" Button`
+    t =    17.40s     Checking existence of `"open" Button`
+    t =    17.48s     Capturing element debug description
+    t =    18.48s Checking `Expect predicate `exists == 1` for object "open" Button`
+    t =    18.49s     Checking existence of `"open" Button`
+    t =    18.56s     Capturing element debug description
+    t =    19.58s Checking `Expect predicate `exists == 1` for object "open" Button`
+    t =    19.59s     Checking existence of `"open" Button`
+    t =    19.67s     Capturing element debug description
+    t =    20.70s Checking `Expect predicate `exists == 1` for object "open" Button`
+    t =    20.70s     Checking existence of `"open" Button`
+    t =    20.77s     Capturing element debug description
+    t =    21.80s Checking `Expect predicate `exists == 1` for object "open" Button`
+    t =    21.80s     Checking existence of `"open" Button`
+    t =    21.88s     Capturing element debug description
+    t =    22.89s Checking `Expect predicate `exists == 1` for object "open" Button`
+    t =    22.89s     Checking existence of `"open" Button`
+    t =    22.97s     Capturing element debug description
+    t =    24.01s Checking `Expect predicate `exists == 1` for object "open" Button`
+    t =    24.02s     Checking existence of `"open" Button`
+    t =    24.09s     Capturing element debug description
+    t =    25.12s Checking `Expect predicate `exists == 1` for object "open" Button`
+    t =    25.12s     Checking existence of `"open" Button`
+    t =    25.20s     Capturing element debug description
+    t =    26.23s Checking `Expect predicate `exists == 1` for object "open" Button`
+    t =    26.23s     Checking existence of `"open" Button`
+    t =    26.30s     Capturing element debug description
+    t =    27.34s Checking `Expect predicate `exists == 1` for object "open" Button`
+    t =    27.34s     Checking existence of `"open" Button`
+    t =    27.42s     Capturing element debug description
+    t =    28.46s Checking `Expect predicate `exists == 1` for object "open" Button`
+    t =    28.46s     Checking existence of `"open" Button`
+    t =    28.54s     Capturing element debug description
+    t =    29.57s Checking `Expect predicate `exists == 1` for object "open" Button`
+    t =    29.58s     Checking existence of `"open" Button`
+    t =    29.65s     Capturing element debug description
+    t =    30.69s Checking `Expect predicate `exists == 1` for object "open" Button`
+    t =    30.69s     Checking existence of `"open" Button`
+    t =    30.77s     Capturing element debug description
+    t =    31.81s Checking `Expect predicate `exists == 1` for object "open" Button`
+    t =    31.81s     Checking existence of `"open" Button`
+    t =    31.87s     Capturing element debug description
+    t =    32.87s Checking `Expect predicate `exists == 1` for object "open" Button`
+    t =    32.88s     Checking existence of `"open" Button`
+    t =    32.95s     Capturing element debug description
+    t =    33.97s Checking `Expect predicate `exists == 1` for object "open" Button`
+    t =    33.97s     Checking existence of `"open" Button`
+    t =    34.03s     Capturing element debug description
+    t =    35.06s Checking `Expect predicate `exists == 1` for object "open" Button`
+    t =    35.06s     Checking existence of `"open" Button`
+    t =    35.14s     Capturing element debug description
+    t =    36.16s Checking `Expect predicate `exists == 1` for object "open" Button`
+    t =    36.17s     Checking existence of `"open" Button`
+    t =    36.24s     Capturing element debug description
+    t =    37.26s Checking `Expect predicate `exists == 1` for object "open" Button`
+    t =    37.26s     Checking existence of `"open" Button`
+    t =    37.32s     Capturing element debug description
+    t =    38.36s Checking `Expect predicate `exists == 1` for object "open" Button`
+    t =    38.36s     Checking existence of `"open" Button`
+    t =    38.44s     Capturing element debug description
+    t =    39.48s Checking `Expect predicate `exists == 1` for object "open" Button`
+    t =    39.48s     Checking existence of `"open" Button`
+    t =    39.55s     Capturing element debug description
+    t =    40.58s Checking `Expect predicate `exists == 1` for object "open" Button`
+    t =    40.58s     Checking existence of `"open" Button`
+    t =    40.66s     Capturing element debug description
+    t =    41.68s Checking `Expect predicate `exists == 1` for object "open" Button`
+    t =    41.69s     Checking existence of `"open" Button`
+    t =    41.75s     Capturing element debug description
+    t =    42.80s Checking `Expect predicate `exists == 1` for object "open" Button`
+    t =    42.80s     Checking existence of `"open" Button`
+    t =    42.85s     Capturing element debug description
+    t =    43.88s Checking `Expect predicate `exists == 1` for object "open" Button`
+    t =    43.89s     Checking existence of `"open" Button`
+    t =    43.95s Find the "open" Button
+    t =    43.99s Tap "open" Button
+    t =    43.99s     Wait for com.apple.AppStore to idle
+    t =    44.05s     Find the "open" Button
+    t =    44.08s     Check for interrupting elements affecting "open" Button
+    t =    44.12s     Synthesize event
+    t =    44.22s     Wait for com.apple.AppStore to idle
+    t =    45.35s Checking `Expect predicate `exists == 1` for object "See what’s happening in the world right now." StaticText`
+    t =    45.35s     Checking existence of `"See what’s happening in the world right now." StaticText`
+    t =    45.55s     Capturing element debug description
+    t =    46.55s Checking `Expect predicate `exists == 1` for object "See what’s happening in the world right now." StaticText`
+    t =    46.56s     Checking existence of `"See what’s happening in the world right now." StaticText`
+    t =    46.59s     Capturing element debug description
+    t =    47.63s Checking `Expect predicate `exists == 1` for object "See what’s happening in the world right now." StaticText`
+    t =    47.63s     Checking existence of `"See what’s happening in the world right now." StaticText`
+    t =    47.67s Tap "Have an account already? Log in" Other
+    t =    47.67s     Wait for com.atebits.Tweetie2 to idle
+    t =    47.76s     Find the "Have an account already? Log in" Other
+    t =    47.80s     Check for interrupting elements affecting "Have an account already? Log in" Other
+    t =    47.81s         Wait for com.apple.springboard to idle
+    t =    47.93s     Synthesize event
+    t =    48.04s     Wait for com.atebits.Tweetie2 to idle
+    t =    49.15s Checking `Expect predicate `exists == 1` for object "Password" SecureTextField`
+    t =    49.15s     Checking existence of `"Password" SecureTextField`
+    t =    49.22s Find the "Phone, email or username" TextField
+    t =    49.26s Tap "Phone, email or username" TextField[0.50, 0.50]
+    t =    49.26s     Wait for com.atebits.Tweetie2 to idle
+    t =    49.49s     Find the "Phone, email or username" TextField
+    t =    49.57s     Check for interrupting elements affecting "Phone, email or username" TextField
+    t =    49.59s         Wait for com.apple.springboard to idle
+    t =    49.75s     Synthesize event
+    t =    49.81s         Find the "Phone, email or username" TextField
+    t =    49.92s     Wait for com.atebits.Tweetie2 to idle
+    t =    50.11s Type '' into "Phone, email or username" TextField
+    t =    50.11s     Wait for com.atebits.Tweetie2 to idle
+    t =    50.17s     Find the "Phone, email or username" TextField
+    t =    50.21s     Check for interrupting elements affecting "Phone, email or username" TextField
+    t =    50.22s         Wait for com.apple.springboard to idle
+    t =    50.35s     Synthesize event
+    t =    50.39s     Wait for com.atebits.Tweetie2 to idle
+    t =    50.42s Type 'QEnginner' into "Phone, email or username" TextField
+    t =    50.42s     Wait for com.atebits.Tweetie2 to idle
+    t =    50.70s     Find the "Phone, email or username" TextField
+    t =    50.77s     Check for interrupting elements affecting "Phone, email or username" TextField
+    t =    50.80s         Wait for com.apple.springboard to idle
+    t =    50.97s     Synthesize event
+    t =    51.19s     Wait for com.atebits.Tweetie2 to idle
+    t =    51.25s Find the "Password" SecureTextField
+    t =    51.31s Tap "Password" SecureTextField[0.50, 0.50]
+    t =    51.31s     Wait for com.atebits.Tweetie2 to idle
+    t =    51.35s     Find the "Password" SecureTextField
+    t =    51.39s     Check for interrupting elements affecting "Password" SecureTextField
+    t =    51.40s         Wait for com.apple.springboard to idle
+    t =    51.51s     Synthesize event
+    t =    51.55s         Find the "Password" SecureTextField
+    t =    51.65s     Wait for com.atebits.Tweetie2 to idle
+    t =    51.70s Type '' into "Password" SecureTextField
+    t =    51.70s     Wait for com.atebits.Tweetie2 to idle
+    t =    51.75s     Find the "Password" SecureTextField
+    t =    51.78s     Check for interrupting elements affecting "Password" SecureTextField
+    t =    51.78s         Wait for com.apple.springboard to idle
+    t =    51.88s     Synthesize event
+    t =    51.91s     Wait for com.atebits.Tweetie2 to idle
+    t =    51.94s Type 'Testing99' into "Password" SecureTextField
+    t =    51.94s     Wait for com.atebits.Tweetie2 to idle
+    t =    51.98s     Find the "Password" SecureTextField
+    t =    52.01s     Check for interrupting elements affecting "Password" SecureTextField
+    t =    52.02s         Wait for com.apple.springboard to idle
+    t =    52.13s     Synthesize event
+    t =    52.33s     Wait for com.atebits.Tweetie2 to idle
+    t =    52.44s Tap "LogIn Action" Button
+    t =    52.44s     Wait for com.atebits.Tweetie2 to idle
+    t =    52.48s     Find the "LogIn Action" Button
+    t =    52.51s     Check for interrupting elements affecting "LogIn Action" Button
+    t =    52.52s         Wait for com.apple.springboard to idle
+    t =    52.65s     Synthesize event
+    t =    52.76s     Wait for com.atebits.Tweetie2 to idle
+    t =    52.84s Waiting 10.0s for "Timelines_tab" Other to exist
+    t =    53.88s     Checking `Expect predicate `exists == 1` for object "Timelines_tab" Other`
+    t =    53.88s         Checking existence of `"Timelines_tab" Other`
+    t =    53.91s         Capturing element debug description
+    t =    54.93s     Checking `Expect predicate `exists == 1` for object "Timelines_tab" Other`
+    t =    54.93s         Checking existence of `"Timelines_tab" Other`
+    t =    54.97s Tear Down
+    t =    54.97s     Terminate com.apple.AppStore:2203
+Test Case '-[iOSAutomationFrameworkUITests.AppInstallationTests test01_TnstallOrOpenTwitterFromAppStore]' passed (56.120 seconds).
+Test Case '-[iOSAutomationFrameworkUITests.AppInstallationTests test02_FollowTwitterIndiaPage]' started.
+    t =     0.00s Start Test at 2020-04-20 08:59:44.866
+    t =     0.06s Set Up
+    t =     0.06s Open com.atebits.Tweetie2
+    t =     0.10s     Launch com.atebits.Tweetie2
+    t =     0.10s         Terminate com.atebits.Tweetie2:2205
+    t =     1.25s         Wait for accessibility to load
+    t =     1.25s         Setting up automation session
+    t =     1.37s         Wait for com.atebits.Tweetie2 to idle
+    t =     3.82s Checking `Expect predicate `exists == 1` for object "Moments_tab" Other`
+    t =     3.82s     Checking existence of `"Moments_tab" Other`
+    t =     3.91s Tap "Moments_tab" Other
+    t =     3.91s     Wait for com.atebits.Tweetie2 to idle
+    t =     3.96s     Find the "Moments_tab" Other
+    t =     3.99s     Check for interrupting elements affecting "Moments_tab" Other
+    t =     4.03s     Synthesize event
+    t =     4.14s     Wait for com.atebits.Tweetie2 to idle
+    t =     5.78s Checking `Expect predicate `exists == 1` for object "SearchTextField" SearchField`
+    t =     5.78s     Checking existence of `"SearchTextField" SearchField`
+    t =     5.81s Tap "SearchTextField" SearchField
+    t =     5.81s     Wait for com.atebits.Tweetie2 to idle
+    t =     6.12s     Find the "SearchTextField" SearchField
+    t =     6.17s     Check for interrupting elements affecting "SearchTextField" SearchField
+    t =     6.33s     Synthesize event
+    t =     6.45s     Wait for com.atebits.Tweetie2 to idle
+    t =     7.73s Type '#TwitterIndia' into Application 'com.atebits.Tweetie2'
+    t =     7.73s     Wait for com.atebits.Tweetie2 to idle
+    t =     7.98s     Find the Application 'com.atebits.Tweetie2'
+    t =     8.05s     Check for interrupting elements affecting "Twitter" Application
+    t =     8.11s     Synthesize event
+    t =     8.16s         Get number of matches for: Elements containing elements matching predicate 'hasKeyboardFocus == 1'
+    t =     8.47s     Wait for com.atebits.Tweetie2 to idle
+    t =     9.56s Checking `Expect predicate `exists == 1` for object "Search" Button`
+    t =     9.56s     Checking existence of `"Search" Button`
+    t =     9.62s Tap "Search" Button
+    t =     9.62s     Wait for com.atebits.Tweetie2 to idle
+    t =     9.68s     Find the "Search" Button
+    t =     9.72s     Check for interrupting elements affecting "Search" Button
+    t =     9.77s     Synthesize event
+    t =     9.88s     Wait for com.atebits.Tweetie2 to idle
+    t =    10.98s Checking `Expect predicate `exists == 1` for object Cell`
+    t =    10.99s     Checking existence of `Cell`
+    t =    11.07s Tap Cell
+    t =    11.07s     Wait for com.atebits.Tweetie2 to idle
+    t =    11.47s     Find the Cell
+    t =    11.55s     Check for interrupting elements affecting "Loading…" Cell
+    t =    11.75s     Synthesize event
+    t =    11.80s         Failed: Failed to compute hit point for Cell, label: 'Loading…': Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2062, 2021, 2123
+    t =    12.80s     Retrying `Tap Cell` (attempt #2)
+    t =    12.81s         Wait for com.atebits.Tweetie2 to idle
+    t =    13.30s         Find the "Loading…" Cell
+    t =    13.38s         Check for interrupting elements affecting Cell
+    t =    13.70s         Synthesize event
+    t =    13.83s         Wait for com.atebits.Tweetie2 to idle
+    t =    14.95s Checking `Expect predicate `exists == 1` for object "FollowButton" Button`
+    t =    14.95s     Checking existence of `"FollowButton" Button`
+    t =    15.04s Find the "FollowButton" Button
+    t =    15.09s Tap "FollowButton" Button
+    t =    15.09s     Wait for com.atebits.Tweetie2 to idle
+    t =    75.14s         App animations complete notification not received, will attempt to continue.
+    t =    75.15s     Find the "FollowButton" Button
+    t =    75.23s     Check for interrupting elements affecting "FollowButton" Button
+    t =    75.92s     Synthesize event
+    t =    76.05s     Wait for com.atebits.Tweetie2 to idle
+    t =   136.10s         App animations complete notification not received, will attempt to continue.
+    t =   137.14s Checking `Expect predicate `exists == 1` for object "FollowButton" Button`
+    t =   137.14s     Checking existence of `"FollowButton" Button`
+    t =   137.22s Find the "FollowButton" Button
+    t =   137.27s Tear Down
+    t =   137.27s     Terminate com.apple.AppStore:0
+Test Case '-[iOSAutomationFrameworkUITests.AppInstallationTests test02_FollowTwitterIndiaPage]' passed (137.533 seconds).
+Test Case '-[iOSAutomationFrameworkUITests.AppInstallationTests test03_PostAndVerifyTwitterTweet]' started.
+    t =     0.00s Start Test at 2020-04-20 09:02:02.403
+    t =     0.07s Set Up
+    t =     0.07s Open com.atebits.Tweetie2
+    t =     0.10s     Launch com.atebits.Tweetie2
+    t =     0.10s         Terminate com.atebits.Tweetie2:2209
+    t =     0.13s             Unable to monitor animations
+    t =     0.14s             Unable to monitor animations
+    t =     1.28s         Wait for accessibility to load
+    t =     1.28s         Setting up automation session
+    t =     1.40s         Wait for com.atebits.Tweetie2 to idle
+    t =     3.83s Checking `Expect predicate `exists == 1` for object "Timelines_tab" Other`
+    t =     3.83s     Checking existence of `"Timelines_tab" Other`
+    t =     3.91s Tap "Timelines_tab" Other
+    t =     3.91s     Wait for com.atebits.Tweetie2 to idle
+    t =     3.96s     Find the "Timelines_tab" Other
+    t =     3.98s     Check for interrupting elements affecting "Timelines_tab" Other
+    t =     4.05s     Synthesize event
+    t =     4.16s     Wait for com.atebits.Tweetie2 to idle
+    t =     5.69s Checking `Expect predicate `exists == 1` for object "Compose Tweet" Button`
+    t =     5.69s     Checking existence of `"Compose Tweet" Button`
+    t =     5.71s Tap "Compose Tweet" Button
+    t =     5.71s     Wait for com.atebits.Tweetie2 to idle
+    t =     5.93s     Find the "Compose Tweet" Button
+    t =     5.95s     Check for interrupting elements affecting "Compose Tweet" Button
+    t =     7.70s     Synthesize event
+    t =     7.84s     Wait for com.atebits.Tweetie2 to idle
+    t =    67.89s         App animations complete notification not received, will attempt to continue.
+    t =    68.94s Checking `Expect predicate `exists == 1` for object "PhotoGalleryButton" Button`
+    t =    68.94s     Checking existence of `"PhotoGalleryButton" Button`
+    t =    69.06s Tap "PhotoGalleryButton" Button
+    t =    69.06s     Wait for com.atebits.Tweetie2 to idle
+    t =   129.12s         App animations complete notification not received, will attempt to continue.
+    t =   129.13s     Find the "PhotoGalleryButton" Button
+    t =   129.23s     Check for interrupting elements affecting "PhotoGalleryButton" Button
+    t =   129.37s     Synthesize event
+    t =   129.49s     Wait for com.atebits.Tweetie2 to idle
+    t =   189.54s         App animations complete notification not received, will attempt to continue.
+    t =   190.59s Checking `Expect predicate `exists == 1` for object "Portrait. Photo" Other`
+    t =   190.59s     Checking existence of `"Portrait. Photo" Other`
+    t =   190.67s Tap "Portrait. Photo" Other
+    t =   190.67s     Wait for com.atebits.Tweetie2 to idle
+    t =   250.73s         App animations complete notification not received, will attempt to continue.
+    t =   250.74s     Find the "Portrait. Photo" Other
+    t =   250.81s     Check for interrupting elements affecting "Portrait. Photo" Other
+    t =   250.95s     Synthesize event
+    t =   251.07s     Wait for com.atebits.Tweetie2 to idle
+    t =   311.12s         App animations complete notification not received, will attempt to continue.
+    t =   312.17s Checking `Expect predicate `exists == 1` for object "Portrait. Photo" Other`
+    t =   312.17s     Checking existence of `"Portrait. Photo" Other`
+    t =   312.25s Tap "Add" Button
+    t =   312.26s     Wait for com.atebits.Tweetie2 to idle
+    t =   372.32s         App animations complete notification not received, will attempt to continue.
+    t =   372.33s     Find the "Add" Button
+    t =   372.38s     Check for interrupting elements affecting "Add" Button
+    t =   372.53s     Synthesize event
+    t =   372.65s     Wait for com.atebits.Tweetie2 to idle
+    t =   432.70s         App animations complete notification not received, will attempt to continue.
+    t =   433.74s Checking `Expect predicate `exists == 1` for object TextView`
+    t =   433.74s     Checking existence of `TextView`
+    t =   433.83s Type '#twitterindia be a...' into Application 'com.atebits.Tweetie2'
+    t =   433.83s     Wait for com.atebits.Tweetie2 to idle
+    t =   493.89s         App animations complete notification not received, will attempt to continue.
+    t =   493.90s     Find the Application 'com.atebits.Tweetie2'
+    t =   494.04s     Check for interrupting elements affecting "Twitter" Application
+    t =   494.15s     Synthesize event
+    t =   494.21s         Get number of matches for: Elements containing elements matching predicate 'hasKeyboardFocus == 1'
+    t =   494.79s     Wait for com.atebits.Tweetie2 to idle
+    t =   554.85s         App animations complete notification not received, will attempt to continue.
+    t =   555.89s Checking `Expect predicate `exists == 1` for object "ComposeSendTweetButton" Button`
+    t =   555.90s     Checking existence of `"ComposeSendTweetButton" Button`
+    t =   555.97s Tap "ComposeSendTweetButton" Button
+    t =   555.97s     Wait for com.atebits.Tweetie2 to idle
+    t =   616.03s         App animations complete notification not received, will attempt to continue.
+    t =   616.04s     Find the "ComposeSendTweetButton" Button
+    t =   616.11s     Check for interrupting elements affecting "ComposeSendTweetButton" Button
+    t =   616.23s     Synthesize event
+    t =   616.35s     Wait for com.atebits.Tweetie2 to idle
+    t =   625.46s Checking `Expect predicate `exists == 1` for object Cell`
+    t =   625.46s     Checking existence of `Cell`
+    t =   629.47s Tap Cell
+    t =   629.47s     Wait for com.atebits.Tweetie2 to idle
+    t =   630.00s     Find the Cell
+    t =   630.25s     Check for interrupting elements affecting "1252080148960161792" Cell
+    t =   630.39s     Synthesize event
+    t =   630.51s     Wait for com.atebits.Tweetie2 to idle
+    t =   631.86s Checking `Expect predicate `exists == 1` for object "CloseButton" Button`
+    t =   631.86s     Checking existence of `"CloseButton" Button`
+    t =   631.95s Tap "CloseButton" Button
+    t =   631.95s     Wait for com.atebits.Tweetie2 to idle
+    t =   631.99s     Find the "CloseButton" Button
+    t =   632.00s     Check for interrupting elements affecting "CloseButton" Button
+    t =   632.02s     Synthesize event
+    t =   632.11s     Wait for com.atebits.Tweetie2 to idle
+    t =   633.63s Checking `Expect predicate `exists == 1` for object "1252080148960161792" Cell`
+    t =   633.64s     Checking existence of `"1252080148960161792" Cell`
+    t =   639.33s Find the Cell
+    t =   639.42s Tear Down
+    t =   639.42s     Terminate com.apple.AppStore:0
+Test Case '-[iOSAutomationFrameworkUITests.AppInstallationTests test03_PostAndVerifyTwitterTweet]' passed (639.679 seconds).
+Test Case '-[iOSAutomationFrameworkUITests.AppInstallationTests test04_VerifyTweetInTwitterIndiaPage]' started.
+    t =     0.00s Start Test at 2020-04-20 09:12:42.084
+    t =     0.06s Set Up
+    t =     0.07s Open com.atebits.Tweetie2
+    t =     0.10s     Launch com.atebits.Tweetie2
+    t =     0.10s         Terminate com.atebits.Tweetie2:2211
+    t =     1.24s         Wait for accessibility to load
+    t =     1.25s         Setting up automation session
+    t =     1.36s         Wait for com.atebits.Tweetie2 to idle
+    t =     3.74s Checking `Expect predicate `exists == 1` for object "Moments_tab" Other`
+    t =     3.74s     Checking existence of `"Moments_tab" Other`
+    t =     3.81s Tap "Moments_tab" Other
+    t =     3.81s     Wait for com.atebits.Tweetie2 to idle
+    t =     3.87s     Find the "Moments_tab" Other
+    t =     3.90s     Check for interrupting elements affecting "Moments_tab" Other
+    t =     7.41s     Synthesize event
+    t =     7.53s     Wait for com.atebits.Tweetie2 to idle
+    t =     9.81s Checking `Expect predicate `exists == 1` for object "SearchTextField" SearchField`
+    t =     9.81s     Checking existence of `"SearchTextField" SearchField`
+    t =     9.87s Tap "SearchTextField" SearchField
+    t =     9.87s     Wait for com.atebits.Tweetie2 to idle
+    t =     9.93s     Find the "SearchTextField" SearchField
+    t =     9.96s     Check for interrupting elements affecting "SearchTextField" SearchField
+    t =    10.12s     Synthesize event
+    t =    10.24s     Wait for com.atebits.Tweetie2 to idle
+    t =    10.99s Type '#TwitterIndia' into Application 'com.atebits.Tweetie2'
+    t =    10.99s     Wait for com.atebits.Tweetie2 to idle
+    t =    11.52s     Find the Application 'com.atebits.Tweetie2'
+    t =    11.60s     Check for interrupting elements affecting "Twitter" Application
+    t =    11.66s     Synthesize event
+    t =    11.71s         Get number of matches for: Elements containing elements matching predicate 'hasKeyboardFocus == 1'
+    t =    12.03s     Wait for com.atebits.Tweetie2 to idle
+    t =    13.12s Checking `Expect predicate `exists == 1` for object "Search" Button`
+    t =    13.13s     Checking existence of `"Search" Button`
+    t =    13.19s Tap "Search" Button
+    t =    13.19s     Wait for com.atebits.Tweetie2 to idle
+    t =    13.25s     Find the "Search" Button
+    t =    13.29s     Check for interrupting elements affecting "Search" Button
+    t =    13.35s     Synthesize event
+    t =    13.45s     Wait for com.atebits.Tweetie2 to idle
+    t =    14.57s Checking `Expect predicate `exists == 1` for object Cell`
+    t =    14.57s     Checking existence of `Cell`
+    t =    14.65s     Capturing element debug description
+    t =    15.69s Checking `Expect predicate `exists == 1` for object Cell`
+    t =    15.70s     Checking existence of `Cell`
+    t =    15.79s Find the Cell
+    t =    15.83s Tear Down
+    t =    15.83s     Terminate com.apple.AppStore:0
+Test Case '-[iOSAutomationFrameworkUITests.AppInstallationTests test04_VerifyTweetInTwitterIndiaPage]' passed (16.090 seconds).
+Test Case '-[iOSAutomationFrameworkUITests.AppInstallationTests test05_UnFollowTwitterIndiaPage]' started.
+    t =     0.00s Start Test at 2020-04-20 09:12:58.176
+    t =     0.06s Set Up
+    t =     0.06s Open com.atebits.Tweetie2
+    t =     0.10s     Launch com.atebits.Tweetie2
+    t =     0.10s         Terminate com.atebits.Tweetie2:2212
+    t =     1.27s         Wait for accessibility to load
+    t =     1.27s         Setting up automation session
+    t =     1.39s         Wait for com.atebits.Tweetie2 to idle
+    t =     3.76s Checking `Expect predicate `exists == 1` for object "Moments_tab" Other`
+    t =     3.77s     Checking existence of `"Moments_tab" Other`
+    t =     3.84s Tap "Moments_tab" Other
+    t =     3.85s     Wait for com.atebits.Tweetie2 to idle
+    t =     3.89s     Find the "Moments_tab" Other
+    t =     3.92s     Check for interrupting elements affecting "Moments_tab" Other
+    t =     3.96s     Synthesize event
+    t =     4.05s     Wait for com.atebits.Tweetie2 to idle
+    t =     5.17s Checking `Expect predicate `exists == 1` for object "SearchTextField" SearchField`
+    t =     5.17s     Checking existence of `"SearchTextField" SearchField`
+    t =     5.23s Tap "SearchTextField" SearchField
+    t =     5.23s     Wait for com.atebits.Tweetie2 to idle
+    t =     5.65s     Find the "SearchTextField" SearchField
+    t =     5.68s     Check for interrupting elements affecting "SearchTextField" SearchField
+    t =     5.75s     Synthesize event
+    t =     5.86s     Wait for com.atebits.Tweetie2 to idle
+    t =     6.65s Type '#TwitterIndia' into Application 'com.atebits.Tweetie2'
+    t =     6.65s     Wait for com.atebits.Tweetie2 to idle
+    t =     7.17s     Find the Application 'com.atebits.Tweetie2'
+    t =     7.21s     Check for interrupting elements affecting "Twitter" Application
+    t =     7.26s     Synthesize event
+    t =     7.31s         Get number of matches for: Elements containing elements matching predicate 'hasKeyboardFocus == 1'
+    t =     7.62s     Wait for com.atebits.Tweetie2 to idle
+    t =     8.70s Checking `Expect predicate `exists == 1` for object "Search" Button`
+    t =     8.70s     Checking existence of `"Search" Button`
+    t =     8.77s Tap "Search" Button
+    t =     8.77s     Wait for com.atebits.Tweetie2 to idle
+    t =     8.82s     Find the "Search" Button
+    t =     8.86s     Check for interrupting elements affecting "Search" Button
+    t =     8.92s     Synthesize event
+    t =     9.02s     Wait for com.atebits.Tweetie2 to idle
+    t =    10.13s Checking `Expect predicate `exists == 1` for object Cell`
+    t =    10.14s     Checking existence of `Cell`
+    t =    10.22s Tap Cell
+    t =    10.22s     Wait for com.atebits.Tweetie2 to idle
+    t =    10.61s     Find the Cell
+    t =    10.70s     Check for interrupting elements affecting "Loading…" Cell
+    t =    10.76s     Synthesize event
+    t =    10.87s     Wait for com.atebits.Tweetie2 to idle
+    t =    12.07s Checking `Expect predicate `exists == 1` for object "FollowButton" Button`
+    t =    12.07s     Checking existence of `"FollowButton" Button`
+    t =    12.41s     Capturing element debug description
+    t =    13.44s Checking `Expect predicate `exists == 1` for object "FollowButton" Button`
+    t =    13.44s     Checking existence of `"FollowButton" Button`
+    t =    13.59s     Capturing element debug description
+    t =    14.60s Checking `Expect predicate `exists == 1` for object "FollowButton" Button`
+    t =    14.61s     Checking existence of `"FollowButton" Button`
+    t =    14.75s     Capturing element debug description
+    t =    15.77s Checking `Expect predicate `exists == 1` for object "FollowButton" Button`
+    t =    15.77s     Checking existence of `"FollowButton" Button`
+    t =    15.92s     Capturing element debug description
+    t =    16.95s Checking `Expect predicate `exists == 1` for object "FollowButton" Button`
+    t =    16.96s     Checking existence of `"FollowButton" Button`
+    t =    17.10s     Capturing element debug description
+    t =    18.14s Checking `Expect predicate `exists == 1` for object "FollowButton" Button`
+    t =    18.14s     Checking existence of `"FollowButton" Button`
+    t =    18.28s     Capturing element debug description
+    t =    19.32s Checking `Expect predicate `exists == 1` for object "FollowButton" Button`
+    t =    19.32s     Checking existence of `"FollowButton" Button`
+    t =    19.46s     Capturing element debug description
+    t =    20.50s Checking `Expect predicate `exists == 1` for object "FollowButton" Button`
+    t =    20.50s     Checking existence of `"FollowButton" Button`
+    t =    20.56s Find the "FollowButton" Button
+    t =    20.61s Tap "FollowButton" Button
+    t =    20.61s     Wait for com.atebits.Tweetie2 to idle
+    t =    80.66s         App animations complete notification not received, will attempt to continue.
+    t =    80.67s     Find the "FollowButton" Button
+    t =    80.75s     Check for interrupting elements affecting "FollowButton" Button
+    t =    81.45s     Synthesize event
+    t =    81.57s     Wait for com.atebits.Tweetie2 to idle
+    t =   141.62s         App animations complete notification not received, will attempt to continue.
+    t =   142.66s Checking `Expect predicate `exists == 1` for object Cell`
+    t =   142.66s     Checking existence of `Cell`
+    t =   142.71s Tap Cell
+    t =   142.71s     Wait for com.atebits.Tweetie2 to idle
+    t =   202.78s         App animations complete notification not received, will attempt to continue.
+    t =   202.79s     Find the Cell
+    t =   202.83s     Check for interrupting elements affecting "Unfollow ⁦‪@TwitterIndia‬⁩" Cell
+    t =   202.95s     Synthesize event
+    t =   203.08s     Wait for com.atebits.Tweetie2 to idle
+    t =   263.14s         App animations complete notification not received, will attempt to continue.
+    t =   264.18s Checking `Expect predicate `exists == 1` for object "FollowButton" Button`
+    t =   264.18s     Checking existence of `"FollowButton" Button`
+    t =   264.26s Find the "FollowButton" Button
+    t =   264.30s Tear Down
+    t =   264.30s     Terminate com.apple.AppStore:0
+Test Case '-[iOSAutomationFrameworkUITests.AppInstallationTests test05_UnFollowTwitterIndiaPage]' passed (264.564 seconds).
+Test Case '-[iOSAutomationFrameworkUITests.AppInstallationTests test06_logoutFromTwitter]' started.
+    t =     0.00s Start Test at 2020-04-20 09:17:22.742
+    t =     0.07s Set Up
+    t =     0.07s Open com.atebits.Tweetie2
+    t =     0.10s     Launch com.atebits.Tweetie2
+    t =     0.10s         Terminate com.atebits.Tweetie2:2213
+    t =     0.13s             Unable to monitor animations
+    t =     0.14s             Unable to monitor animations
+    t =     0.14s             Unable to monitor animations
+    t =     0.14s             Unable to monitor animations
+    t =     1.23s         Wait for accessibility to load
+    t =     1.24s         Setting up automation session
+    t =     1.33s         Wait for com.atebits.Tweetie2 to idle
+    t =     3.70s Checking `Expect predicate `exists == 1` for object "Timelines_tab" Other`
+    t =     3.70s     Checking existence of `"Timelines_tab" Other`
+    t =     3.77s Tap "Timelines_tab" Other
+    t =     3.78s     Wait for com.atebits.Tweetie2 to idle
+    t =     3.83s     Find the "Timelines_tab" Other
+    t =     3.87s     Check for interrupting elements affecting "Timelines_tab" Other
+    t =     3.95s     Synthesize event
+    t =     4.06s     Wait for com.atebits.Tweetie2 to idle
+    t =     5.61s Checking `Expect predicate `exists == 1` for object "NavigationBarDashButton" Button`
+    t =     5.61s     Checking existence of `"NavigationBarDashButton" Button`
+    t =     5.65s Tap "NavigationBarDashButton" Button
+    t =     5.65s     Wait for com.atebits.Tweetie2 to idle
+    t =     6.53s     Find the "NavigationBarDashButton" Button
+    t =     6.57s     Check for interrupting elements affecting "NavigationBarDashButton" Button
+    t =     6.66s     Synthesize event
+    t =     6.78s     Wait for com.atebits.Tweetie2 to idle
+    t =     8.56s Checking `Expect predicate `exists == 1` for object "Settings and privacy" StaticText`
+    t =     8.56s     Checking existence of `"Settings and privacy" StaticText`
+    t =     8.65s Tap "Settings and privacy" StaticText
+    t =     8.65s     Wait for com.atebits.Tweetie2 to idle
+    t =     8.71s     Find the "Settings and privacy" StaticText
+    t =     8.75s     Check for interrupting elements affecting "Settings and privacy" StaticText
+    t =     8.80s     Synthesize event
+    t =     8.91s     Wait for com.atebits.Tweetie2 to idle
+    t =    10.00s Checking `Expect predicate `exists == 1` for object "Account" StaticText`
+    t =    10.00s     Checking existence of `"Account" StaticText`
+    t =    10.07s Tap "Account" StaticText
+    t =    10.07s     Wait for com.atebits.Tweetie2 to idle
+    t =    10.12s     Find the "Account" StaticText
+    t =    10.16s     Check for interrupting elements affecting "Account" StaticText
+    t =    10.20s     Synthesize event
+    t =    10.30s     Wait for com.atebits.Tweetie2 to idle
+    t =    12.63s Checking `Expect predicate `exists == 1` for object "Log out" StaticText`
+    t =    12.63s     Checking existence of `"Log out" StaticText`
+    t =    12.73s Tap "Log out" StaticText
+    t =    12.73s     Wait for com.atebits.Tweetie2 to idle
+    t =    12.78s     Find the "Log out" StaticText
+    t =    12.82s     Check for interrupting elements affecting "Log out" StaticText
+    t =    12.86s     Synthesize event
+    t =    12.96s     Wait for com.atebits.Tweetie2 to idle
+    t =    14.52s Checking `Expect predicate `exists == 1` for object "Log out" StaticText`
+    t =    14.52s     Checking existence of `"Log out" StaticText`
+    t =    14.63s Tap "Log out" Button
+    t =    14.63s     Wait for com.atebits.Tweetie2 to idle
+    t =    14.68s     Find the "Log out" Button
+    t =    14.71s     Check for interrupting elements affecting "Log out" Button
+    t =    14.76s     Synthesize event
+    t =    14.85s     Wait for com.atebits.Tweetie2 to idle
+    t =    16.32s Checking `Expect predicate `exists == 1` for object "See what’s happening in the world right now." StaticText`
+    t =    16.32s     Checking existence of `"See what’s happening in the world right now." StaticText`
+    t =    16.36s     Capturing element debug description
+    t =    17.40s Checking `Expect predicate `exists == 1` for object "See what’s happening in the world right now." StaticText`
+    t =    17.40s     Checking existence of `"See what’s happening in the world right now." StaticText`
+    t =    17.44s Find the "See what’s happening in the world right now." StaticText
+    t =    17.46s Tear Down
+    t =    17.47s     Terminate com.apple.AppStore:0
+Test Case '-[iOSAutomationFrameworkUITests.AppInstallationTests test06_logoutFromTwitter]' passed (17.722 seconds).
+Test Suite 'AppInstallationTests' passed at 2020-04-20 09:17:40.463.
+     Executed 6 tests, with 0 failures (0 unexpected) in 1131.709 (1131.721) seconds
+Test Suite 'iOSAutomationFrameworkUITests.xctest' passed at 2020-04-20 09:17:40.465.
+     Executed 6 tests, with 0 failures (0 unexpected) in 1131.709 (1131.722) seconds
+Test Suite 'Selected tests' passed at 2020-04-20 09:17:40.466.
+     Executed 6 tests, with 0 failures (0 unexpected) in 1131.709 (1131.725) seconds
